@@ -91,7 +91,8 @@
 				usePopupCaption: true,
 				popupLoaderText: '',
 				windowMargin: 50,
-				usePopupNav: true
+				usePopupNav: true,
+				selector: 'a[href*=".jpg"],a[href*=".png"],a[href*=".gif"]'
 			});
 
 			// Hack: Adjust margins when 'small' activates.
